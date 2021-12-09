@@ -1,1 +1,282 @@
-<h1> hello world </h1>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Yixin Tan - Curriculum Vitae</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Source+Sans+Pro:400,400i" rel="stylesheet">
+    <body>
+        <div class="page">
+            <div class="section row">
+                <h1 class="col"><span style="font-weight:700">Yixin</span> Tan</h1>
+                <div class="contact-info col-right">
+                    <div>Phone: <span style="color: #ba0018">(+86) 18011408023</span></div>
+                    <div>E-mail: <a href="mailto:tanyixin233@gmail.com">tanyixin233@gmail.com</a></div>
+                    <div>Website: <a href="https://tanyx95.github.io/">tanyx95.github.io</a></div>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Education</h2>
+                <div class="section-text col-right">
+                    <h3><span class="emph">Master of Engineering</span> in Computer Science</h3>
+                    <div>Southwest University (SWU)</div>
+                    <div class="row">
+                        <div class="col light">Chongqing, China</div>
+                        <div class="col-right light">September 2018 - June 2021</div>
+                    </div>
+                </div>
+                <div class="section-text col-right">
+                    <h3><span class="emph">Bachelor of Engineering</span> in Information Engineering</h3>
+                    <div>University of Electronic Science and Technology of China (UESTC)</div>
+                    <div class="row">
+                        <div class="col light">Sichuan, China</div>
+                        <div class="col-right light	">September 2014 - June 2018</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Research Experience</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Stack-Overflow: Semantic Relationship Analysis</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Master Period, Southwest University</div>
+                        <div class="col-right light">November 2019 - October 2020</div>
+                    </div>
+                    <div>
+                        The data comes from the programming community <a href="https://stackoverflow.com/">Stack-Overflow</a> which has many technical terms and questions. 
+                        Each technical question has multi-technical terms to label it and each term has a definition text to introduce it.
+                        So there are many complex relations in these technical terms.
+                        In this case, my research is to recognize these specific semantic relations and try to construct a semantic graph of programming technology, which would help us to understand the evolution of programming technology.
+                    </div>
+                    <div style="margin: 10px 0 5px;">
+                        We try to identify the semantic relation of two technical terms via their hypernyms. 
+                        For example, the term pair "Python-Numpy" can be labeled as “Member-Collection" via hypernym pair "Language-Library". 
+                        In this case, we proposed a novel hypernym extraction method based on the text classification model to extract the hypernym-hyponym relation of technical terms. <a href="#ISWC2020">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Publications</h2>
+                <div class="section-text col-right" id="ISWC2020">
+                    <div class="row">
+                        <div class="col">
+                            <h3>From syntactic structure to semantic relationship: hypernym extraction from definitions by recurrent neural networks using the part of speech information</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col"><strong>Yixin Tan</strong>, Xiaomeng Wang, Tao Jia</div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">The International Semantic Web Conference, 2020 (Research Track)</div>
+                    </div>
+                    <div class="row subsection paper_link">
+                        <a href="https://arxiv.org/abs/2012.03418">Pdf</a>
+                        <a href="bibtex.html?id=ISWC2020">Cite</a>
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-030-62419-4_30">DOI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Project</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>ZhaoMeiBao - UESTC</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Frontend and backend software engineer</div>
+                        <div class="col-right light">February 2016 - May 2016</div>
+                    </div>
+                    <div>
+                        ZhaoMeiBao is a website for daily coal transactions.
+                        On this website, visitors could look through all coal price information and dynamics of coal transactions. 
+                        Moreover, the user management system could help the administrator to add or delete a user and manage the users' information.
+                        </br>Github: <a href="https://github.com/FacatZ/zhaomeibao">https://github.com/FacatZ/zhaomeibao</a>
+                    </div>
+                    <ul class="desc">
+                        <li>
+                            Frontend: &nbsp;
+                            According to the UI blueprint, I finished all frontend pages development by using HTML, CSS, and BootStrap which is a UI framework. 
+                            I used jQuery, which is a JavaScript library, to implement the DOM operation and used the AJAX technique to implement the interaction with the server via JSON data format.
+                        </li>
+                        <li>
+                            Backend: &nbsp;
+                            I finished router settings and basic functions by using the web framework Flask of Python. 
+                            I used the ORM frame of Flask to implement the basic operation of SQL databases, and the Jinjia2 template engine of Flask was used to render the user interface.
+                        </li>
+                    </ul>
+                </div>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>MissionOffer - UESTC</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Frontend software engineer</div>
+                        <div class="col-right light">September 2015 - November 2015</div>
+                    </div>
+                    <div>
+                        MissionOffer is a mission and reward website for college students (crowdsourced ideas). 
+                        College students could release and receive the daily task on this website, improving the convenience of college lives.
+                        </br>Github: <a href="https://github.com/Sys-Lab/MissionOffer">https://github.com/Sys-Lab/MissionOffer</a>
+                    </div>
+                    <ul class="desc">
+                        <li>Frontend: According to the UI blueprint, I finished all frontend pages development by using HTML, CSS, and BootStrap which is a UI framework. In addition, I used the native JavaScript to implement the AJAX function.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Experience</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>NSFOCUS - Internship</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Assitant Website Developer</div>
+                        <div class="col-right light">January 2018 - May 2018</div>
+                    </div>
+                    <div>
+                        My job is to research and develop the Hub system, which is a content management system used for employees in our company. 
+                        It contains the daily report and the KPI index evaluation for employees.
+                    </div>
+                    <ul class="desc">
+                        <li>
+                            Frontend: &nbsp;
+                            I finisehd some pages of Hub system by using HTML and CSS, and its' corresponding DOM operations are finished by using JavaScript and jQuery. 
+                            I transformed the KPI data into the chart, by using ECharts library of JavaScript, showing on the website page.
+                        </li>
+                        <li>
+                            Backend: &nbsp;
+                            I finished router settings and basic functions by using the web framework Django of Python. 
+                            I used the ORM frame of Django to implement the basic operation of MySQL databases, and the Jinjia2 template engine of framework was used to render the user interface.
+                        </li>
+                    </ul>
+                </div>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Knownsec - Internship</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Assistant Data Engineer</div>
+                        <div class="col-right light">March 2017 - May 2017</div>
+                    </div>
+                    <div>
+                        My job is to recognize the specfic physical devices that send HTTP message to request resources. 
+                        I used Python to parse the HTTP message and found a pattern to match these regulars, then I recorded it into the rule system.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section row">
+                <h2 class="col">Interests</h2>
+                <div class="section-text col-right"><span class="key">Intelligent systems</span> <span class="key">Machine learning</span> <span class="key">Data visualization</span> <span class="key">Computer vision &amp; graphics</span> <span class="key">Information networks</span> <span class="key">User experience / interaction design</span> </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Skills</h2>
+                <div class="section-text col-right row">
+                    <ul class="skills" style="width:25%">
+                        <li>C++, Java</li>
+                        <li>Javascript</li>
+                        <li>Python, PHP</li>
+                        <li>HTML5, CSS3, SVG</li>
+                    </ul>
+                    <ul class="skills" style="width:35%">
+                        <li>Qt, OpenGL/SDL, V8</li>
+                        <li>jQuery, backbone, node</li>
+                        <li>Django, App engine</li>
+                        <li>LESS, Bootstrap, d3.js</li>
+                        
+                    </ul>
+                    <ul class="skills">
+                        <li>MySQL, MongoDB</li>
+                        <li>grunt, jasmine</li>
+                        <li>Flash, Actionscript 3</li>
+                        <li>Git, Photoshop, Illustrator</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Experience</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Google</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Full stack engineer</div>
+                        <div class="col-right light">July 2015 - Present</div>
+                    </div>
+                    <ul class="desc">
+                        <li>YouTube Trust and Safety</li>
+                </div>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Emotion - New York University</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Research Assistant, Full Stack Engineer</div>
+                        <div class="col-right light">June 2014 - August 2014</div>
+                    </div>
+                    <div>Started out as a tool to help collect data for a research project - <i>Lingering emotion in the experience of beauty</i>, is now a comprehensive app that simulates every step of the experiment and automates the entire data collection process.
+                    </div>
+                    <ul class="desc">
+                        <li>Designed and developed a mobile-friendly responsive web app from the ground-up that tracks touch events to calibrate and measure the distance between two fingers and detects gestures.</li>
+                        <li>Ported the web app as a native mac OS app which involved writing a native node.js module that detects and generates DOM touch events from a mac trackpad.</li>
+                        <li>Developed a RESTful server that extracts speech from recorded audio tracks by trimming background silence and normalizing gain.</li>
+                        <li>Developed a proxy service to allow users to stream on-demand audio from a music streaming service on a mobile web app.</li>
+                        <li>Built interactive audio and visual feedback using the HTML5 web audio api and SVG.</li>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Projects</h2>
+                <div class="section-text col-right">
+                    <h3><a href="https://github.com/nuterian">github.com/nuterian</a></h3>
+                </div>
+            </div>
+            
+            <div class="section row">
+                <h2 class="col">Honors</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>SEARCC International School's Software Competition</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Algorithmic Programming Competition</div>
+                        <div class="col-right light">Fall 2007</div>
+                    </div>
+                    <div class="desc">Organized by the Computer Society of India, was part of a team of three to represent our region at
+                        the national level finals. Finished <span class="emph">second</span> by solving the maximum number of problems.
+                    </div>
+                </div>
+                			
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Codechef Gamer's Challenge</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Actionscript/HTML5 Game Development Competition</div>
+                        <div class="col-right light">Summer 2009</div>
+                    </div>
+                    <div class="desc">Developed a prototypical game using Actionscript on the Flash platform, in less than 48 hours. Received an honorable mention award for the <span class="emph">Best Looking Game</span>.</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
